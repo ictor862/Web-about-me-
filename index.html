@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me </title>
+    <title>About me</title>
     <link rel="stylesheet" href="style.css">
     <style>
         .introduction {
             max-width: 400px;
-            margin: 0 auto;
+            margin: 20px auto;
             padding: 20px;
             background-color: #f0f0f0;
             border-radius: 8px;
+            text-align: center; /* Centers the image and text */
         }
         .introduction h1 {
-            text-align: center;
             color: #298612;
         }
         .introduction p {
             font-size: 18px;
             line-height: 1.6;
             color: #1b1a1a;
+            text-align: left; /* Keeps the paragraph easy to read */
+        }
+        .profile-img {
+            width: 150px;
+            border-radius: 50%; /* Makes the image a circle */
         }
     </style>
 </head>
 <body>
+
     <div class="introduction">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAhC_c0FrgjYgKnFaSJbNbkCj0zmUWAIeXVQ&s" 
+             alt="Victor's Profile Picture" class="profile-img">
+        
         <h1>About me</h1>
-        <p>link to my webpage web-about-me-nwao.vercel.app. My name is Victor Nwobasi Kalu, and I want to be a software developer ain my final semester at the university of Nyiregyhaza with a passion for creating innovative solutions. I have little experience in various programming languages, i hope to improve and learn more and enjoy working on both front-end and back-end development projects. In my free time, i play games try learning new things</n>
-        i love playing games tried to be a youtuber and i also enjoy cooking if i want to make a dish i have intrest in.</p>
+        <p>
+            Visit my webpage: <a href="https://web-about-me-nwao.vercel.app">web-about-me-nwao.vercel.app</a>. <br><br>
+            My name is Victor Nwobasi Kalu... [Rest of your text]
+        </p>
     </div>
+
     <h2>Skills</h2>
     <ul style="list-style-type: circle;">
         <li>Python</li>
@@ -37,4 +49,6 @@
         <li>Problem Solving</li>
         <li>Use of AI in problem solving</li>
     </ul>
-</body></html>
+
+</body>
+</html>
